@@ -12,6 +12,24 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 os.environ['TF_ENABLE_ONEDNN_OPTS'] ='0'
 
+hide_github_icon = """
+    <style>
+    .stAppDeployButton {
+        display: none !important;
+    }
+    header {
+        visibility: hidden;
+    }
+    #MainMenu {
+        visibility: hidden;
+    }
+    footer {
+        visibility: hidden;
+    }
+    </style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 @st.cache_resource
 def load_model():
    with open('image_classification/new_model.pkl', 'rb') as file:
