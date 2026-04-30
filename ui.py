@@ -24,7 +24,7 @@ hide_github_icon = """
         visibility: hidden;
     }
     footer {
-        visibility: hidden;
+        display: none !important;
     }
     </style>
 """
