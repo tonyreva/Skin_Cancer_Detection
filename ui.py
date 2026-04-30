@@ -23,8 +23,15 @@ hide_github_icon = """
     #MainMenu {
         visibility: hidden;
     }
-    .viewerBadge_container__1QSob{
-    display: none !important;
+    /* 3. Hide the floating "Hosted with Streamlit" / Profile badge */
+    /* This targets any class starting with 'viewerBadge' */
+    div[class^="viewerBadge"] {
+        display: none !important;
+    }
+
+    /* 4. Hide the status widget (bottom right) */
+    [data-testid="stStatusWidget"] {
+        display: none !important;
     }
     footer {
         visibility: hidden;
