@@ -23,11 +23,9 @@ hide_github_icon = """
     #MainMenu {
         visibility: hidden;
     }
-    .viewerBadge_container__1QSob
-    {
+    .viewerBadge_container__1QSob{
     display: none !important;
     }
-    [data-testid="stStatusWidget"] {display: none !important;}
     footer {
         visibility: hidden;
     }
