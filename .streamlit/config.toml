@@ -1,6 +1,0 @@
-[client]
-toolbarMode = "hidden"
-showErrorDetails = false
-
-[browser]
-gatherUsageStats = false
