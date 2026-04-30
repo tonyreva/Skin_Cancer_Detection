@@ -27,6 +27,7 @@ hide_github_icon = """
     {
     display: none !important;
     }
+    [data-testid="stStatusWidget"] {display: none !important;}
     footer {
         visibility: hidden;
     }
