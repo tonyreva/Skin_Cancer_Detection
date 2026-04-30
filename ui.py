@@ -23,6 +23,10 @@ hide_github_icon = """
     #MainMenu {
         visibility: hidden;
     }
+    .viewerBadge_container__1QSob
+    {
+    display: none !important;
+    }
     footer {
         visibility: hidden;
     }
