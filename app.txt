@@ -1,0 +1,2 @@
+Deployed URL link/App link
+https://skincancerdetection-4zjtynxttgekjekq8symzf.streamlit.app/
