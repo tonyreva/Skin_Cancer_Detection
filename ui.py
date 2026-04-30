@@ -7,24 +7,6 @@ import av
 import os
 
 
-hide_github_icon = """
-    <style>
-    .stAppDeployButton {
-        display: none !important;
-    }
-    header {
-        visibility: hidden;
-    }
-    #MainMenu {
-        visibility: hidden;
-    }
-    footer {
-        visibility: hidden;
-    }
-    </style>
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
-
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
